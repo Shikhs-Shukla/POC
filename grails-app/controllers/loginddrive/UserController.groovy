@@ -110,6 +110,47 @@ class UserController {
 //        render(view:"displayInfo", model:[username : params.username])
     }
 
+    def pocCode() {
+        def arrayObj = [
+            [
+                "customGuitar" : "esp",
+                "tubeAmplifier" : "roland",
+                "ballStrings" : "yamaha",
+                "pick" : "one",
+                "belt" : "sentinal"
+            ],
+            [
+                    "customGuitar" : "esp1",
+                    "tubeAmplifier" : "roland1",
+                    "ballStrings" : "yamaha1",
+                    "pick" : "one1",
+                    "belt" : "sentinal1"
+            ],
+            [
+                    "customGuitar" : "esp2",
+                    "tubeAmplifier" : "roland2",
+                    "ballStrings" : "yamaha2",
+                    "pick" : "one2",
+                    "belt" : "sentinal2"
+            ],
+            [
+                    "customGuitar" : "deded",
+                    "tubeAmplifier" : "rdededeoland2",
+                    "ballStrings" : "yadedededmaha2",
+                    "pick" : "dedededed",
+                    "belt" : "dededewswsws"
+            ],
+            [
+                    "customGuitar" : "aqaqsq",
+                    "tubeAmplifier" : "gtgtgt",
+                    "ballStrings" : "opoppopo",
+                    "pick" : "lplplp",
+                    "belt" : "jdiwhjdijwid"
+            ]
+        ]
+        render arrayObj as JSON
+    }
+
     def logout() {
         session.user = null
         redirect(action: 'index')
