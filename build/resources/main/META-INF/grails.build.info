@@ -1,0 +1,6 @@
+#Tue, 28 Mar 2017 16:48:27 +0530
+
+grails.env=development
+info.app.version=0.1
+info.app.grailsVersion=3.2.0
+info.app.name=LoginDDrive

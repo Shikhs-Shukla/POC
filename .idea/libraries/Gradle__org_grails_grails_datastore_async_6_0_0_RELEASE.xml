@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.grails:grails-datastore-async:6.0.0.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-async/6.0.0.RELEASE/d1a6c6a3eb2d6b6c54eea46fbb009abf23cdec8/grails-datastore-async-6.0.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/grails-datastore-async/6.0.0.RELEASE/741aa728994c9ee63356b3fc80150729f5c79e74/grails-datastore-async-6.0.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
